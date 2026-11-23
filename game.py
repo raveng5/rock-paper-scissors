@@ -25,7 +25,7 @@ def main():
             "On Ubuntu/Debian: sudo apt install python3-tk"
         ) from None
 
-    bg, panel, muted = "#1d4ed8", "#1f2937", "#9ca3af"
+    bg, panel, muted = "#111827", "#1f2937", "#9ca3af"
     root = tk.Tk()
     root.title("Rock Paper Scissors")
     root.geometry("680x680")
