@@ -18,6 +18,7 @@ def get_result(player, computer):
 def main():
     try:
         import tkinter as tk
+        print("blalallalalalalalaallalaalalallalalalal")
     except ImportError:
         raise SystemExit(
             "Tkinter is missing. On Fedora: sudo dnf install python3-tkinter\n"
