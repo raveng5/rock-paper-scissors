@@ -27,8 +27,8 @@ def main():
     bg, panel, muted = "#111827", "#1f2937", "#9ca3af"
     root = tk.Tk()
     root.title("Rock Paper Scissors")
-    root.geometry("680x610")
-    root.minsize(560, 560)
+    root.geometry("680x680")
+    root.minsize(560, 660)
     root.configure(bg=bg)
     scores = {"win": 0, "draw": 0, "lose": 0}
 
